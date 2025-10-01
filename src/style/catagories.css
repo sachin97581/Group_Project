@@ -1,13 +1,16 @@
 .categories-container {
   display: flex;
-  /* gap: 20px; */
-  /* padding: 20px; */
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* margin: 1rem; */
+  padding: 60px 0 0 0;
   overflow-x: auto;
-  scrollbar-width: thin; /* for Firefox */
+   scrollbar-width: thin; /* for Firefox */
 }
 
 .categories-container::-webkit-scrollbar {
-  height: 8px; /* horizontal scrollbar height */
+  height: 6px; /* horizontal scrollbar height */
 }
 
 .categories-container::-webkit-scrollbar-thumb {

@@ -15,7 +15,7 @@ const Header = () => {
         <div className="right-side d-flex align-items-center">
           {/* <img src={logoUrl} alt="Logo" className="logo" /> */}
           <i className="fa-brands fa-airbnb"></i>
-          <Nav.Link href="/explore" className="nav-link-custom ms-3">Explore</Nav.Link>
+          <Nav.Link href="/" className="nav-link-custom ms-3">Explore</Nav.Link>
           
         </div>
 
@@ -28,6 +28,11 @@ const Header = () => {
           />
           <Button variant="primary">Search</Button>
         </Form>
+
+        {/* Add Listing  */}
+        <div>
+          <Nav.Link href="/newlisting" className="nav-link-custom">Add Home</Nav.Link>
+        </div>
 
         {/* Left - Login/Logout */}
         <Nav className="left-nav">

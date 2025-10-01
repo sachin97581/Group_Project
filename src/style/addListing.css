@@ -1,0 +1,100 @@
+/* Body background */
+body {
+    width: 100%;
+  background: #f2f7ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form container */
+.container {
+  /* max-width: 76rem; */
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* Form labels */
+.form-label {
+  font-weight: 600;
+  color: #34495e;
+}
+
+/* Input fields and textarea */
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #1abc9c;
+  box-shadow: 0 0 5px rgba(26, 188, 156, 0.3);
+  outline: none;
+}
+
+/* File input */
+input[type="file"] {
+  padding: 5px;
+  width: 28rem;
+}
+
+/* Price and Country row */
+.row .col-md-4,
+.row .col-md-8 {
+  margin-bottom: 15px;
+}
+
+/* Category dropdown styling */
+.input-group .btn {
+  border-radius: 8px 0 0 8px;
+  width: 22rem;
+}
+
+.input-group .form-control {
+  border-radius: 0 8px 8px 0;
+}
+
+/* Submit button */
+button[type="submit"] {
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #16a085;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Feedback messages */
+.valid-feedback,
+.invalid-feedback {
+  font-size: 0.85rem;
+  color: #e74c3c;
+  margin-top: 5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    margin: 30px auto;
+  }
+}

@@ -1,0 +1,109 @@
+/* Wrapper */
+.listing-container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Title */
+.listing-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+/* Image */
+.listing-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* Details section */
+.listing-details p {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #555;
+}
+
+.listing-details b {
+  color: #222;
+}
+
+/* Buttons container */
+.button-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.button-group .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.button-group .btn:hover {
+  transform: scale(1.05);
+}
+
+/* Review section */
+.review-section {
+  margin-top: 40px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  border: 1px solid #eee;
+}
+
+.review-section h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #444;
+  text-align: center;
+}
+
+/* Textarea */
+.review-section textarea {
+  border-radius: 10px;
+  resize: none;
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-size: 15px;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+.review-section textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.3);
+}
+
+/* Submit button */
+.review-submit {
+  display: block;
+  margin: 20px auto 0;
+  background: #28a745;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.review-submit:hover {
+  background: #218838;
+  transform: scale(1.05);
+}

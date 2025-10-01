@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/catagoriesCards.css'
+// import '../style/catagories.css'
 
 function CatagoriesCards({ icon, title }) {
   return (

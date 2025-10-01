@@ -1,17 +1,14 @@
-import React from 'react'
-import Button from '@mui/material/Button';
-import Stack from '@mui/material/Stack';
+import React from "react";
+import Cards from "./Cards";
+import Catagories from "./Catagories";
 
 function Home() {
   return (
     <div>
-       <Stack direction="row" spacing={2}>
-      <Button>Primary</Button>
-      <Button disabled>Disabled</Button>
-      <Button href="#text-buttons">Link</Button>
-    </Stack>
+      <Catagories />
+      <Cards />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
