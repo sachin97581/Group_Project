@@ -1,0 +1,49 @@
+/* Container to center the card */
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Main card style */
+.card {
+  width: 18rem;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  background: #fff;
+}
+
+/* Image styling */
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Body content */
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #666;
+}

@@ -1,0 +1,16 @@
+.categories-container {
+  display: flex;
+  /* gap: 20px; */
+  /* padding: 20px; */
+  overflow-x: auto;
+  scrollbar-width: thin; /* for Firefox */
+}
+
+.categories-container::-webkit-scrollbar {
+  height: 8px; /* horizontal scrollbar height */
+}
+
+.categories-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}

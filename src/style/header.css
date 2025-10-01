@@ -1,0 +1,63 @@
+.main{
+  padding-bottom: 1.5rem;
+}
+
+/* Make navbar fixed at top */
+.custom-navbar {
+  background-color: #ffffff !important;
+  padding: 0.8rem 1.5rem;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 1000;
+}
+
+/* Left side links */
+.left-nav .nav-link-custom {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #333 !important;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+
+.left-nav .nav-link-custom:hover {
+  color: #007bff !important;
+}
+
+/* Search bar */
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  min-width: 250px;
+}
+
+.search-form input {
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  border: 1px solid #ccc;
+}
+
+.search-form button {
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+/* Right side (logo + explore) */
+.right-side .logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.right-side .nav-link-custom {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #333 !important;
+  transition: color 0.2s;
+}
+
+.right-side .nav-link-custom:hover {
+  color: #007bff !important;
+}
